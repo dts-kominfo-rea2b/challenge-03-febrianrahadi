@@ -21,7 +21,6 @@ const dataBelanjaan = [
 ];
 
 // boleh dimodifikasi bila ingin menggunakan deklarasi fungsi yang normal
-const listBelanjaan = null;
 const listBelanjaan = (dataBelanjaan)=>{
     let belanja= [];
   for(let a = 0; a < dataBelanjaan.length; a++){
@@ -32,7 +31,6 @@ const listBelanjaan = (dataBelanjaan)=>{
 };
 
 // boleh dimodifikasi bila ingin menggunakan deklarasi fungsi yang normal
-const totalBelanjaan = null;
 const totalBelanjaan = (dataBelanjaan)=>{
     let total = 0;
     let subtotal = 0;
